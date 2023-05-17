@@ -4,6 +4,7 @@ import { MainPage, ComicsPage } from '../pages';
 import AppHeader from "../appHeader/AppHeader";
 
 const App = () => {
+
     return (
         <Router>
             <div className="app">
