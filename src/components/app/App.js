@@ -13,10 +13,9 @@ const App = () => {
                     <Routes>
                         <Route exact path="/" element={<MainPage />} />
                         <Route exact path="/comics" element={<ComicsPage />} />
-                    </Route>
-                </Routes>
-            </main>
-        </div>
+                    </Routes>
+                </main>
+            </div>
         </Router >
     )
 }
